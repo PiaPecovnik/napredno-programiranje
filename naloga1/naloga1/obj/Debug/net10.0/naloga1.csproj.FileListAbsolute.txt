@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.AssemblyInfo.cs
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\bin\Debug\net10.0\naloga1.exe
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\bin\Debug\net10.0\naloga1.deps.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\bin\Debug\net10.0\naloga1.runtimeconfig.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\bin\Debug\net10.0\naloga1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\bin\Debug\net10.0\naloga1.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\refint\naloga1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\naloga1.genruntimeconfig.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\naloga1\naloga1\obj\Debug\net10.0\ref\naloga1.dll

@@ -1,6 +1,6 @@
-namespace naloga1
+namespace naloga2
 {
-    class Artikel
+    public class Artikel
     {
         private Slika _slika;
         public Slika _Slika
@@ -21,18 +21,21 @@ namespace naloga1
             set { _zascitaSlike = value; }
         }
 
-        public Artikel()
-        {
-            _slika = new Slika();
-            _okvirSlike = new OkvirSlike();
-            _zascitaSlike = new ZascitaSlike();
-        }
-
         public Artikel(Slika slika, OkvirSlike okvirSlike, ZascitaSlike zascitaSlike)
         {
             _slika = slika;
             _okvirSlike = okvirSlike;
             _zascitaSlike = zascitaSlike;
+        }
+
+        //konstruktor s polovičnimi atributi
+        public Artikel(Slika slika, OkvirSlike okvirSlike)
+        {
+            
+        }
+
+        public Artikel() : this (new Slika(), new OkvirSlike(), new ZascitaSlike())
+        {
         }
         public string IzpisPodatkov()
         {

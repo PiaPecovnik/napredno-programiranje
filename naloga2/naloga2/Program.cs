@@ -1,4 +1,4 @@
-﻿namespace naloga1
+﻿namespace naloga2
 {
     class Program
     {

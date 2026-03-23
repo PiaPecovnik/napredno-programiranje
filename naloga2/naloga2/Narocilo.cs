@@ -1,6 +1,6 @@
-namespace naloga1
+namespace naloga2
 {
-    class Narocilo
+    public class Narocilo
     {
         private Slika _slika;
         public Slika _Slika
@@ -39,14 +39,6 @@ namespace naloga1
             set { _izdano = value; }
         }
 
-        public Narocilo()
-        {
-            _slika = new Slika();
-            _okvirSlike = new OkvirSlike();
-            _zascitaSlike = new ZascitaSlike();
-            _datumNarocila = "";
-        }
-
         public Narocilo(Slika slika, OkvirSlike okvirSlike, ZascitaSlike zascitaSlike, string datumNarocila, int rokDobave, bool izdano)
         {
             _slika = slika;
@@ -56,6 +48,17 @@ namespace naloga1
             _rokDobave = rokDobave;
             _izdano = izdano;
         }
+
+        public Narocilo() : this (new Slika(), new OkvirSlike(), new ZascitaSlike(), "", 0, false)
+        {   
+        }
+
+        //konstruktor s polovičnimi atributi
+        public Narocilo(Slika slika, string datumNarocila, bool izdano)
+        {
+            
+        }
+
         public string IzpisPodatkov()
         {
             string pretvorba = "Ne";

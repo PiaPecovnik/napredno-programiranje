@@ -1,4 +1,4 @@
-namespace naloga1
+namespace naloga2
 {
 
     public enum MaterialOkvirja
@@ -26,12 +26,9 @@ namespace naloga1
         public int _CenaZaMeter
         {
             get { return _cenaZaMeter; }
-            set { _cenaZaMeter = value; }
-        }
-
-        public OkvirSlike()
-        {
-            _imeOkvirja = "";
+            set { if (value < 0)
+            throw new ArgumentException("Cena ne sme biti negativna! ");
+                _cenaZaMeter = value; }
         }
 
         public OkvirSlike(string imeOkvirja, MaterialOkvirja materialOkvirja, int cenaZaMeter)
@@ -40,6 +37,17 @@ namespace naloga1
             _materialOkvirja = materialOkvirja;
             _cenaZaMeter = cenaZaMeter;
         }
+
+        public OkvirSlike() : this ("", MaterialOkvirja.les, 0)
+        {
+        }
+
+        //konstruktor s polovičnimi atributi
+        public OkvirSlike(MaterialOkvirja materialOkvirja, int cenaZaMeter)
+        {
+            
+        }
+
         public string IzpisPodatkov()
         {
             string rezultat = "";

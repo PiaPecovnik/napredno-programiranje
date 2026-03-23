@@ -1,4 +1,4 @@
-namespace naloga1
+namespace naloga2
 {
     public enum MaterialZascite
     {
@@ -6,7 +6,7 @@ namespace naloga1
         plastika
     }
 
-    class ZascitaSlike
+    public class ZascitaSlike
     {
         private string _imeZascite;
         public string _ImeZAscite
@@ -24,12 +24,9 @@ namespace naloga1
         public int _CenaNaKvadratniMeter
         {
             get { return _cenaNaKvadratniMeter; }
-            set { _cenaNaKvadratniMeter = value; }
-        }
-
-        public ZascitaSlike()
-        {
-            _imeZascite = "";
+            set { if (value < 0)
+            throw new ArgumentException("Cena ne sme biti negativna! ");
+                _cenaNaKvadratniMeter = value; }
         }
 
         public ZascitaSlike(string imeZascite, MaterialZascite materialZascite, int cenaNaKvadratniMeter)
@@ -38,6 +35,17 @@ namespace naloga1
             _materialZascite = materialZascite;
             _cenaNaKvadratniMeter = cenaNaKvadratniMeter;
         }
+
+        public ZascitaSlike() : this ("", MaterialZascite.steklo, 0)
+        {
+        }
+
+        //konstruktor s polovičnimi atributi
+        public ZasciteSlike(MaterialZascite materialZascite, int cenaNaKvadratniMeter)
+        {
+            
+        }
+
         public string IzpisPodatkov()
         {
             string rezultat = "";

@@ -39,6 +39,14 @@ namespace naloga2
             set { _izdano = value; }
         }
 
+        public Narocilo() : this(new Slika(), new OkvirSlike(), new ZascitaSlike(), "", 0, false)
+        {
+        }
+
+        public Narocilo(Slika slika, string datumNarocila, bool izdano) : this(slika, new OkvirSlike(), new ZascitaSlike(), datumNarocila, 0, izdano)
+        {
+        }
+
         public Narocilo(Slika slika, OkvirSlike okvirSlike, ZascitaSlike zascitaSlike, string datumNarocila, int rokDobave, bool izdano)
         {
             _slika = slika;
@@ -47,16 +55,6 @@ namespace naloga2
             _datumNarocila = datumNarocila;
             _rokDobave = rokDobave;
             _izdano = izdano;
-        }
-
-        public Narocilo() : this (new Slika(), new OkvirSlike(), new ZascitaSlike(), "", 0, false)
-        {   
-        }
-
-        //konstruktor s polovičnimi atributi
-        public Narocilo(Slika slika, string datumNarocila, bool izdano)
-        {
-            
         }
 
         public string IzpisPodatkov()

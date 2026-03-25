@@ -41,9 +41,12 @@ namespace naloga2
         public int _OsnovnaCena
         {
             get { return _osnovnaCena; }
-            set { if (value < 0)
-            throw new ArgumentException("Osnovna cena ne sme biti negativna! ");
-                _osnovnaCena = value; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentException("Osnovna cena ne sme biti negativna! ");
+                _osnovnaCena = value;
+            }
         }
         private bool _podokvir;
         public bool _Podokvir
@@ -58,6 +61,14 @@ namespace naloga2
             set { _avtorSlike = value; }
         }
 
+        public Slika() : this(Tip.akrilna, 0, 0, "", 0, false, "")
+        {
+        }
+
+        public Slika(Tip tip, string imeSlike, int osnovnaCena, string avtorSlike) : this(tip, 0, 0, imeSlike, osnovnaCena, false, avtorSlike)
+        {
+        }
+
         public Slika(Tip tip, int sirinaVCm, int visinaVCm, string imeSlike, int osnovnaCena, bool podokvir, string avtorSlike)
         {
             _tip = tip;
@@ -67,16 +78,6 @@ namespace naloga2
             _osnovnaCena = osnovnaCena;
             _podokvir = podokvir;
             _avtorSlike = avtorSlike;
-        }
-
-        public Slika() : this (Tip.akrilna, 0, 0, "", 0, false, "")
-        {
-        }
-
-        //konstruktor s polovičnimi atributi
-        public Slika(Tip tip, string imeSlike, int osnovnaCena, string avtorSlike)
-        {
-            
         }
 
         public string IzpisPodatkov()

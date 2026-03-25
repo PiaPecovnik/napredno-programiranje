@@ -26,9 +26,20 @@ namespace naloga2
         public int _CenaZaMeter
         {
             get { return _cenaZaMeter; }
-            set { if (value < 0)
-            throw new ArgumentException("Cena ne sme biti negativna! ");
-                _cenaZaMeter = value; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentException("Cena ne sme biti negativna! ");
+                _cenaZaMeter = value;
+            }
+        }
+
+        public OkvirSlike() : this("", MaterialOkvirja.les, 0)
+        {
+        }
+
+        public OkvirSlike(MaterialOkvirja materialOkvirja, int cenaZaMeter) : this("", materialOkvirja, cenaZaMeter)
+        {
         }
 
         public OkvirSlike(string imeOkvirja, MaterialOkvirja materialOkvirja, int cenaZaMeter)
@@ -36,16 +47,6 @@ namespace naloga2
             _imeOkvirja = imeOkvirja;
             _materialOkvirja = materialOkvirja;
             _cenaZaMeter = cenaZaMeter;
-        }
-
-        public OkvirSlike() : this ("", MaterialOkvirja.les, 0)
-        {
-        }
-
-        //konstruktor s polovičnimi atributi
-        public OkvirSlike(MaterialOkvirja materialOkvirja, int cenaZaMeter)
-        {
-            
         }
 
         public string IzpisPodatkov()

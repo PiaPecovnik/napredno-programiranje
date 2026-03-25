@@ -9,7 +9,7 @@ namespace naloga2
     public class ZascitaSlike
     {
         private string _imeZascite;
-        public string _ImeZAscite
+        public string _ImeZascite
         {
             get { return _imeZascite; }
             set { _imeZascite = value; }
@@ -24,9 +24,20 @@ namespace naloga2
         public int _CenaNaKvadratniMeter
         {
             get { return _cenaNaKvadratniMeter; }
-            set { if (value < 0)
-            throw new ArgumentException("Cena ne sme biti negativna! ");
-                _cenaNaKvadratniMeter = value; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentException("Cena ne sme biti negativna! ");
+                _cenaNaKvadratniMeter = value;
+            }
+        }
+
+        public ZascitaSlike() : this("", MaterialZascite.steklo, 0)
+        {
+        }
+
+        public ZascitaSlike(MaterialZascite materialZascite, int cenaNaKvadratniMeter) : this("", materialZascite, cenaNaKvadratniMeter)
+        {
         }
 
         public ZascitaSlike(string imeZascite, MaterialZascite materialZascite, int cenaNaKvadratniMeter)
@@ -34,16 +45,6 @@ namespace naloga2
             _imeZascite = imeZascite;
             _materialZascite = materialZascite;
             _cenaNaKvadratniMeter = cenaNaKvadratniMeter;
-        }
-
-        public ZascitaSlike() : this ("", MaterialZascite.steklo, 0)
-        {
-        }
-
-        //konstruktor s polovičnimi atributi
-        public ZasciteSlike(MaterialZascite materialZascite, int cenaNaKvadratniMeter)
-        {
-            
         }
 
         public string IzpisPodatkov()

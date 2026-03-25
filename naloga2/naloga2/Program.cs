@@ -5,40 +5,39 @@
 
         static void Main(string[] args)
         {
-            Slika prvaSlika = new Slika(Tip.olje, 50, 30, "Tesnoba", 20000, false, "August Friedrich");
-            prvaSlika.IzpisPodatkov();
-            Slika drugaSlika = new Slika(Tip.pastel, 65, 87, "Pred lovom", 5000, true, "Jurij Šubic");
-            drugaSlika.IzpisPodatkov();
-            Slika tretjaSlika = new Slika(Tip.vodena, 47, 36, "Modri čoln", 800, false, "Winslow Homer");
-            tretjaSlika.IzpisPodatkov();
+            /* 1. Preverjanje negativne vrednosti v set metodi za osnovno ceno
+             Slika slika = new Slika(Tip.olje, 50, 30, "Tesnoba", 20000, false, "August Friedrich");
+             slika._OsnovnaCena = -500;
+             */
 
-            OkvirSlike prviOkvir = new OkvirSlike("Trske", MaterialOkvirja.les, 31);
-            prviOkvir.IzpisPodatkov();
-            OkvirSlike drugiOkvir = new OkvirSlike("Gladina", MaterialOkvirja.kovina, 25);
-            drugiOkvir.IzpisPodatkov();
-            OkvirSlike tretjiOkvir = new OkvirSlike("Misterij", MaterialOkvirja.umetnaMasa, 21);
-            tretjiOkvir.IzpisPodatkov();
+            /* 2. Preverjanje overload konstruktorjev
+            Slika slika1 = new Slika();
+            Slika slika2 = new Slika(Tip.olje, "Tesnoba", 20000, "August Friedrich");
+            Slika slika3 = new Slika(Tip.tempera, 20, 31230, "Mozzarela", 2010, true, "Matjaz Tretji");
 
-            ZascitaSlike prvaZascita = new ZascitaSlike("Trske", MaterialZascite.steklo, 20);
-            prvaZascita.IzpisPodatkov();
-            ZascitaSlike drugaZascita = new ZascitaSlike("Gladina", MaterialZascite.steklo, 20);
-            drugaZascita.IzpisPodatkov();
-            ZascitaSlike tretjaZascita = new ZascitaSlike("Misterij", MaterialZascite.plastika, 12);
-            tretjaZascita.IzpisPodatkov();
+            Console.WriteLine("Slika 1 - Privzeti konstruktor");
+            Console.WriteLine(slika1.IzpisPodatkov() + "\n");
 
-            Artikel prviArtikel = new Artikel(prvaSlika, prviOkvir, prvaZascita);
-            prviArtikel.IzpisPodatkov();
-            Artikel drugiArtikel = new Artikel(drugaSlika, drugiOkvir, drugaZascita);
-            drugiArtikel.IzpisPodatkov();
-            Artikel tretjiArtikel = new Artikel(tretjaSlika, tretjiOkvir, tretjaZascita);
-            tretjiArtikel.IzpisPodatkov();
+            Console.WriteLine("Slika 2 - Polovicni konstruktor");
+            Console.WriteLine(slika2.IzpisPodatkov() + "\n");
 
-            Narocilo prvoNarocilo = new Narocilo(prvaSlika, prviOkvir, prvaZascita, "09.03.2026", 10, false);
-            prvoNarocilo.IzpisPodatkov();
-            Narocilo drugoNarocilo = new Narocilo(drugaSlika, drugiOkvir, drugaZascita, "23.11.2026", 22, true);
-            drugoNarocilo.IzpisPodatkov();
-            Narocilo tretjeNarocilo = new Narocilo(tretjaSlika, tretjiOkvir, tretjaZascita, "13.6.2026", 6, true);
-            tretjeNarocilo.IzpisPodatkov();
+            Console.WriteLine("Slika 3 - Nastavitveni konstruktor");
+            Console.WriteLine(slika3.IzpisPodatkov() + "\n");
+            */
+
+            /* 3. Preverjanje overload metod
+            Slika slika = new Slika(Tip.akrilna, 50, 25, "Poplava", 4000, false, "Anej Zajc");
+            OkvirSlike okvirSlike = new OkvirSlike("Gozd", MaterialOkvirja.les, 30);
+            ZascitaSlike zascitaSLike = new ZascitaSlike("Steklenina", MaterialZascite.steklo, 13);
+
+            Artikel artikel = new Artikel(slika, okvirSlike, zascitaSLike);
+
+            Console.WriteLine("Cena slike je: " + artikel.IzracunCene());
+            Console.WriteLine("Cena slike je: " + artikel.IzracunCene(9.5));
+            Console.WriteLine("Cena slike je: " + artikel.IzracunCene(9.5, 20));
+            Console.WriteLine("Cena slike je: " + artikel.IzracunCene(9.5, 20, 5));
+            */
+
         }
     }
 }

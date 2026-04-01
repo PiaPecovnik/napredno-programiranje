@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.sourcelink.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\bin\Debug\net10.0\ConsoleApp1.exe
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\bin\Debug\net10.0\ConsoleApp1.deps.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\bin\Debug\net10.0\ConsoleApp1.runtimeconfig.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\bin\Debug\net10.0\ConsoleApp1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\bin\Debug\net10.0\ConsoleApp1.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\refint\ConsoleApp1.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga3\naloga3\obj\Debug\net10.0\ref\ConsoleApp1.dll

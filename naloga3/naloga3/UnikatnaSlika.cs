@@ -18,9 +18,9 @@ namespace naloga3
             _opisSlike = opisSlike;
         }
 
-        public sealed override string IzpisPodatkov()
+        public sealed override string ToString()
         {
-            return base.IzpisPodatkov() + "\nOpis slike: " + _opisSlike;
+            return base.ToString() + "\nOpis slike: " + _opisSlike;
         }
 
         public override bool jeUnikat()

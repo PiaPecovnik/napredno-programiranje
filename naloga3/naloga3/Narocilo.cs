@@ -50,7 +50,7 @@ namespace naloga3
             _izdano = izdano;
         }
 
-        public sealed override string IzpisPodatkov()
+        public sealed override string ToString()
         {
             string pretvorba = "Ne";
             if (_izdano == true)

@@ -34,9 +34,9 @@ namespace naloga3
             _kvaliteta = kvaliteta;
         }
 
-        public sealed override string IzpisPodatkov()
+        public sealed override string ToString()
         {
-            return base.IzpisPodatkov() + "\nOriginalni avtor: " + _originalniAvtor + "\nKvaliteta slike: " + _kvaliteta;
+            return base.ToString() + "\nOriginalni avtor: " + _originalniAvtor + "\nKvaliteta slike: " + _kvaliteta;
         }
 
         public override bool jeUnikat()

@@ -47,7 +47,7 @@ namespace naloga3
             _cenaNaKvadratniMeter = cenaNaKvadratniMeter;
         }
 
-        public string IzpisPodatkov()
+        public string ToString()
         {
             string rezultat = "";
             rezultat += "Podatki o zaščiti slike:\n";

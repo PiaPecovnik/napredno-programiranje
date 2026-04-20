@@ -31,9 +31,9 @@ namespace naloga3
         public virtual string IzpisPodatkov()
         {
             string rezultat = "";
-            rezultat += "Slika: \n" + _slika.IzpisPodatkov() + "\n";
-            rezultat += "Okvir: \n" + _okvirSlike.IzpisPodatkov() + "\n";
-            rezultat += "Zaščita: \n" + _zascitaSlike.IzpisPodatkov() + "\n";
+            rezultat += "Slika: \n" + _slika.ToString() + "\n";
+            rezultat += "Okvir: \n" + _okvirSlike.ToString() + "\n";
+            rezultat += "Zaščita: \n" + _zascitaSlike.ToString() + "\n";
 
             return rezultat;
         }

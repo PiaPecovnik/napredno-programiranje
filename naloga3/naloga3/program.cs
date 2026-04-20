@@ -21,6 +21,8 @@ class Program
 
         // pogoj: unikatnaSlika.jeUnikat() ? se izvede, če je pogoj izpolnjen -> "Da" : se izvede, če pogoj ni izpolnjen -> "Ne"
 
-        Console.WriteLine(narocilo.IzpisPodatkov());
+        Console.WriteLine(narocilo);
+
+
     }
 }

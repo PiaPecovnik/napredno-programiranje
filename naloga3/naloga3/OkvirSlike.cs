@@ -49,7 +49,7 @@ namespace naloga3
             _cenaZaMeter = cenaZaMeter;
         }
 
-        public string IzpisPodatkov()
+        public string ToString()
         {
             string rezultat = "";
             rezultat += "Podatki o okvirju:\n";

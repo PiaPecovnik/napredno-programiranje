@@ -80,7 +80,7 @@ namespace naloga3
             _avtorSlike = avtorSlike;
         }
 
-        public virtual string IzpisPodatkov()
+        public override string ToString()
         {
             string pretvorba = "Ne";
             if (_podokvir == true)

@@ -2,24 +2,6 @@ namespace naloga3
 {
     class Narocilo : Artikel
     {
-        private Slika _slika;
-        public Slika _Slika
-        {
-            get { return _slika; }
-            set { _slika = value; }
-        }
-        private OkvirSlike _okvirSlike;
-        public OkvirSlike _OkvirSlike
-        {
-            get { return _okvirSlike; }
-            set { _okvirSlike = value; }
-        }
-        private ZascitaSlike _zascitaSlike;
-        public ZascitaSlike _ZascitaSlike
-        {
-            get { return _zascitaSlike; }
-            set { _zascitaSlike = value; }
-        }
         private string _datumNarocila;
         public string _DatumNarocila
         {

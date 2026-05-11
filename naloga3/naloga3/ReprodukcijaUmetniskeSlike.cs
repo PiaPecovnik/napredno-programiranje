@@ -23,7 +23,7 @@ namespace naloga3
             set { _kvaliteta = value; }
         }
 
-        public ReprodukcijaUmetniskeSlike()
+        public ReprodukcijaUmetniskeSlike() : this(Tip.natisnjena, 0, 0, "", 0, true, "", "", Kvaliteta.srednja)
         {
 
         }

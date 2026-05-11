@@ -9,7 +9,7 @@ namespace naloga3
             set { _opisSlike = value; }
         }
 
-        public UnikatnaSlika()
+        public UnikatnaSlika() : this(Tip.akrilna, 0, 0, "", 0, true, "", "")
         {
         }
 

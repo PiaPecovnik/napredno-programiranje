@@ -1,0 +1,8 @@
+Beleženje Izjem;;
+Čas;Tip;Kratek opis
+;;
+12. 05. 2026 21:19:58; ArtikelNeObstajaException; NAPAKA! Artikel ne obstaja v zalogi.
+;;
+12. 05. 2026 21:25:37; RacunJeZeIzdanException; NAPAKA! Račun je že izdan. 
+;;
+12. 05. 2026 21:28:24; NeveljavnaOsebaZaIzdajoRacuna; NAPAKA! Oseba je neveljavna za izdajo računa - davčni zavezanec brez davčne številke. 

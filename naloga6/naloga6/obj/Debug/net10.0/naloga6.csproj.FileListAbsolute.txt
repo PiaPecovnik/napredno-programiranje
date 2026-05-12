@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\bin\Debug\net10.0\naloga6.exe
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\bin\Debug\net10.0\naloga6.deps.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\bin\Debug\net10.0\naloga6.runtimeconfig.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\bin\Debug\net10.0\naloga6.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\bin\Debug\net10.0\naloga6.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.AssemblyInfo.cs
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.sourcelink.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\refint\naloga6.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\naloga6.genruntimeconfig.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga6\naloga6\obj\Debug\net10.0\ref\naloga6.dll

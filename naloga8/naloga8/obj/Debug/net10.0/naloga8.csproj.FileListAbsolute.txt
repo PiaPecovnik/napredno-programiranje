@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\bin\Debug\net10.0\naloga8.exe
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\bin\Debug\net10.0\naloga8.deps.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\bin\Debug\net10.0\naloga8.runtimeconfig.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\bin\Debug\net10.0\naloga8.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\bin\Debug\net10.0\naloga8.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.AssemblyInfo.cs
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.sourcelink.json
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\refint\naloga8.dll
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.pdb
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\naloga8.genruntimeconfig.cache
+C:\Users\HP\OneDrive - Univerza v Mariboru\Namizje\FAKS\1_letnik\2. semester\napredno programiranje\vaje\napredno-programiranje\naloga8\naloga8\obj\Debug\net10.0\ref\naloga8.dll

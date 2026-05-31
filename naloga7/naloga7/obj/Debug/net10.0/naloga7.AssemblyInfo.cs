@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("naloga7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb42df2e5b447efc7f97301f4b89748297297cf6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be260e56e3dba4beedea037d2acdbc94a1d6998")]
 [assembly: System.Reflection.AssemblyProductAttribute("naloga7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("naloga7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
